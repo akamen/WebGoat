@@ -100,6 +100,13 @@
 		<url>https://travis-ci.org/WebGoat/WebGoat</url>
 	</ciManagement>
 
+      <repositories>
+	  <repository>
+		<id>maven-snap</id>
+		<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+	  </repository>
+     </repositories>
+
 	<properties>
 	<!-- Black Duck Hub -->
 	<hub.url>http://int-hub01.dc1.lan:8080</hub.url>
