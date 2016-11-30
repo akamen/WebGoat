@@ -100,12 +100,6 @@
 		<url>https://travis-ci.org/WebGoat/WebGoat</url>
 	</ciManagement>
 
-      <repositories>
-	  <repository>
-		<id>maven-snap</id>
-		<url>https://oss.sonatype.org/content/repositories/snapshots</url>
-	  </repository>
-     </repositories>
 
 	<properties>
 	<!-- Black Duck Hub -->
@@ -193,6 +187,12 @@
 
 
 	<pluginRepositories>
+
+	  <pluginRepository>
+		<id>maven-snap</id>
+		<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+	  </pluginRepository>
+
 		<pluginRepository>
 			<id>apache.snapshots</id>
 			<url>http://repository.apache.org/snapshots/</url>
